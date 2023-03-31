@@ -56,7 +56,7 @@ class _RiveExampleAppState extends State<RiveExampleApp> {
     const _Page('Animation Carousel', AnimationCarousel()),
     const _Page('Custom rulettes', CustomRoulette()),
     const _Page('Custom watch', CustomWatch()),
-    const _Page('my_roulette', MyRoulette()),
+    const _Page('점심판 룰렛', MyRoulette()),
   ];
 
   @override
