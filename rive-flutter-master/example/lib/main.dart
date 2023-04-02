@@ -15,6 +15,7 @@ import 'package:rive_example/simple_machine_listener.dart';
 import 'package:rive_example/simple_state_machine.dart';
 import 'package:rive_example/skinning_demo.dart';
 import 'package:rive_example/state_machine_skills.dart';
+import 'package:rive_example/ticket_ui.dart';
 
 void main() => runApp(
       MaterialApp(
@@ -57,6 +58,7 @@ class _RiveExampleAppState extends State<RiveExampleApp> {
     const _Page('Custom rulettes', CustomRoulette()),
     const _Page('Custom watch', CustomWatch()),
     const _Page('점심판 룰렛', MyRoulette()),
+    const _Page('티켓 UI', TicketUi()),
   ];
 
   @override
